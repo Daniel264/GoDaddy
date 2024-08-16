@@ -1,11 +1,13 @@
 import React from "react";
+import godaddy from "../assets/godaddy.png";
+import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="drawer drawer-end">
+    <div className="drawer drawer-end p-5">
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-row justify-between">
-        <h1 className="font-semibold text-3xl mr-4">GoDaddy</h1>
+        <Image className="mr-4 max-w-[170px]" src={godaddy} alt="" />
         <div className="hidden md:flex flex-row space-x-6">
           <ul className="flex flex-row space-x-6 items-center">
             <li>Domain Names</li>
