@@ -7,8 +7,8 @@ const Header = () => {
     <div className="drawer drawer-end p-5">
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-row justify-between">
-        <Image className="mr-4 max-w-[170px]" src={godaddy} alt="" />
-        <div className="hidden md:flex flex-row space-x-6">
+        <Image className="mr-4 max-w-[190px] md:max-w-[170px]" src={godaddy} alt="" />
+        <div className="hidden md:flex flex-row space-x-6 cursor-pointer">
           <ul className="flex flex-row space-x-6 items-center">
             <li>Domain Names</li>
             <li>Websites & Hosting</li>
@@ -46,7 +46,7 @@ const Header = () => {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
-        <ul className="menu p-4 w-80 bg-base-100 text-base-content">
+        <ul className="menu p-4 w-80 bg-base-100 text-base-content cursor-pointer">
           <li>Domain Names</li>
           <li>Websites & Hosting</li>
           <li>Commerce</li>
