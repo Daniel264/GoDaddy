@@ -7,7 +7,11 @@ const Header = () => {
     <div className="drawer drawer-end p-5">
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-row justify-between">
-        <Image className="mr-4 max-w-[190px] md:max-w-[170px]" src={godaddy} alt="" />
+        <Image
+          className="mr-4 max-w-[190px] md:max-w-[170px]"
+          src={godaddy}
+          alt=""
+        />
         <div className="hidden md:flex flex-row space-x-6 cursor-pointer">
           <ul className="flex flex-row space-x-6 items-center">
             <li>Domain Names</li>
@@ -18,7 +22,7 @@ const Header = () => {
             <li>More</li>
           </ul>
         </div>
-        <div className="flex">
+        <div className="hidden md:flex">
           <ul className="flex space-x-4">
             <li>Help Center</li>
             <li>Sign in</li>
@@ -53,6 +57,8 @@ const Header = () => {
           <li>Email & Marketing</li>
           <li>Expert Services</li>
           <li>More</li>
+          <li>Help Center</li>
+          <li>Sign in</li>
         </ul>
       </div>
     </div>
