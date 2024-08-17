@@ -10,12 +10,12 @@ const InputBox = () => {
         <button className="btn btn-primary ml-2">search Domain</button>
       </div>
       <div>
-        <p className="font-semibold text-[#888]">.online  $0.99*</p>
-        <p className="font-bold text-[#888]">.net</p>
+        <p className="font-semibold text-[#888]">.online $0.99*</p>
+        <p className="font-bold text-[#888]">.net $14.99*</p>
         <p>
-          <Image src={inc} alt="inc logo" />
+          <Image src={inc} alt="inc logo" /> $999.99*
         </p>
-        <p className="font-semibold text-[#888]">.online</p>
+        <p className="font-semibold text-[#888]">.online $11.99*</p>
       </div>
     </>
   );
