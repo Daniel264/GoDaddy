@@ -12,7 +12,7 @@ const Header = () => {
           src={godaddy}
           alt=""
         />
-        <div className="hidden md:flex flex-row space-x-6 cursor-pointer">
+        <div className="hidden lg:flex flex-row space-x-6 cursor-pointer">
           <ul className="flex flex-row space-x-6 items-center">
             <li>Domain Names</li>
             <li>Websites & Hosting</li>
