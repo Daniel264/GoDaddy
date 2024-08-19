@@ -10,6 +10,9 @@ interface CarouseProps {
 const Carousel = ({ images }: CarouseProps) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const totalImages = images.length;
+  const animationWidth = totalImages * 100;
+
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -20,10 +23,10 @@ const Carousel = ({ images }: CarouseProps) => {
   return (
     <>
       <div
-        className="flex transition-transform duration-700 ease-in-out"
-        style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+        className="flex animate-slide-infinite"
+        style={{ width: `${animationWidth}%` }}
       >
-        {images.map((image, index) => (
+        {images.concat(images).map((image, index) => (
           <div key={index} className="min-w-fit px-5">
             <Image
               src={image}
@@ -38,3 +41,6 @@ const Carousel = ({ images }: CarouseProps) => {
 };
 
 export default Carousel;
+
+// "flex transition-transform duration-700 ease-in-out"
+//         style={{ transform: `translateX(-${currentIndex * 100}%)` }}

@@ -19,8 +19,6 @@ const images = [
   fourthTemplate,
   firstTemplate,
   fifthTemplate,
-
- ...Array(10).fill(firstTemplate), // Add more images for more templates
 ]
 
 const Templates = () => {
