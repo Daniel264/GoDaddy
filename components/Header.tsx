@@ -8,7 +8,7 @@ const Header = () => {
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-row justify-between">
         <Image
-          className="mr-4 max-w-[190px] md:max-w-[170px]"
+          className="mr-4 max-w-[190px] sm:max-w-[170px]"
           src={godaddy}
           alt=""
         />
@@ -22,7 +22,7 @@ const Header = () => {
             <li>More</li>
           </ul>
         </div>
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <ul className="flex space-x-4">
             <li>Help Center</li>
             <li>Sign in</li>
@@ -30,7 +30,7 @@ const Header = () => {
         </div>
         <label
           htmlFor="my-drawer"
-          className="btn btn-square btn-ghost md:hidden"
+          className="btn btn-square btn-ghost lg:hidden"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
