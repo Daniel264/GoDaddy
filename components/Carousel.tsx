@@ -28,7 +28,7 @@ const Carousel = ({ images }: CarouseProps) => {
             <Image
               src={image}
               alt=""
-              className="w-full h-[500px] rounded-badge object-cover"
+              className=" w-full h-[500px] rounded-badge object-cover"
             />
           </div>
         ))}
