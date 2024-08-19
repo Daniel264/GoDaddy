@@ -17,11 +17,13 @@ const images = [
 
 const Templates = () => {
   return (
-    <div className='overflow-hidden text-center bg-[rgb(253,233,219)]'>
-      <div className='max-w-4xl mx-auto mt-10 '>
-        <h2 className='text-5xl font-bold text-gray-800 pb-5'>Templates designed to sell</h2>
-        <p className='p-5'>Choose from 100s of designs</p>
-        <Carousel images={images} />
+    <div className='pt-32'>
+      <div className='overflow-hidden text-center bg-[rgb(253,233,219)]'>
+        <div className='max-w-4xl mx-auto mt-10 '>
+          <h2 className='text-5xl font-bold text-gray-800 pb-5'>Templates designed to sell</h2>
+          <p className='p-5'>Choose from 100s of designs</p>
+          <Carousel images={images} />
+        </div>
       </div>
     </div>
   )
