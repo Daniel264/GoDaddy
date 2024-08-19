@@ -15,7 +15,7 @@ const config: Config = {
         },
       },
       animation: {
-        "slide-infinite": "slide 30s linear infinite",
+        "slide-infinite": "slide 100s linear infinite",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
