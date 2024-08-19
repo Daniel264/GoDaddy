@@ -5,13 +5,21 @@ import secondTemplate from '../assets/template2.png'
 import thirdTemplate from '../assets/template3.png'
 import fourthTemplate from '../assets/template4.png'
 import fifthTemplate from '../assets/template5.png'
+import sixthTemplate from '../assets/template6.png'
+import seventhTemplate from '../assets/template7.png'
+import eightTemplate from '../assets/template8.png'
 
 const images = [
   firstTemplate,
+  sixthTemplate,
   secondTemplate,
+  seventhTemplate,
   thirdTemplate,
+  eightTemplate,
   fourthTemplate,
+  firstTemplate,
   fifthTemplate,
+
  ...Array(10).fill(firstTemplate), // Add more images for more templates
 ]
 

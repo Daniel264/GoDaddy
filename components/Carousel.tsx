@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
@@ -24,8 +24,12 @@ const Carousel = ({ images }: CarouseProps) => {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {images.map((image, index) => (
-          <div key={index} className="min-w-full">
-            <Image src={image} alt="" className="w-full h-auto px-5" />
+          <div key={index} className="min-w-fit px-5">
+            <Image
+              src={image}
+              alt=""
+              className="w-full h-[500px] rounded-badge object-cover"
+            />
           </div>
         ))}
       </div>
@@ -34,5 +38,3 @@ const Carousel = ({ images }: CarouseProps) => {
 };
 
 export default Carousel;
-
-
