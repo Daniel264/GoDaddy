@@ -4,6 +4,7 @@ import InputBox from "@/components/InputBox";
 import LandingPage from "@/components/LandingPage";
 import Questions from "@/components/Questions";
 import Templates from "@/components/Templates";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <InputBox />
       <LandingPage />
       <Templates />
+      <Testimonials />
       <Help />
       <Questions />
     </>
