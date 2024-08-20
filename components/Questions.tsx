@@ -12,7 +12,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" defaultChecked />
           <div className="collapse-title text-xl font-medium ">
-            <p className="text-3xl">
+            <p className="md:text-3xl ">
               How does GoDaddy help small business owners succeed?
             </p>
           </div>
@@ -33,7 +33,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-            <p className="text-3xl">Why do I need a website for my business?</p>
+            <p className="md:text-3xl">Why do I need a website for my business?</p>
           </div>
           <div className="collapse-content">
             <p>
@@ -61,7 +61,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-            <p className="text-3xl">Why do I need a professional email?</p>
+            <p className="md:text-3xl">Why do I need a professional email?</p>
           </div>
           <div className="collapse-content">
             <p>
@@ -89,7 +89,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-            <p className="text-3xl">Why get a domain name from us</p>
+            <p className="md:text-3xl">Why get a domain name from us</p>
           </div>
           <div className="collapse-content">
             <p>
@@ -104,7 +104,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-            <p className="text-3xl">Why use GoDaddy Website Builder?</p>
+            <p className="md:text-3xl">Why use GoDaddy Website Builder?</p>
           </div>
           <div className="collapse-content">
             <p>
@@ -119,7 +119,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-            <p className="text-3xl">
+            <p className="md:text-3xl">
               What makes GoDaddy Web Hosting the world leader?
             </p>
           </div>
@@ -137,7 +137,7 @@ const Questions = () => {
         <div className="collapse collapse-arrow join-item border-base-300 border">
           <input type="radio" name="my-accordion-4" />
           <div className="collapse-title text-xl font-medium">
-            <p className="text-3xl">Why choose GoDaddy for WordPress?</p>
+            <p className="md:text-3xl">Why choose GoDaddy for WordPress?</p>
           </div>
           <div className="collapse-content">
             <p>
