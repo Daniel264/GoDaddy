@@ -12,8 +12,8 @@ export default function Home() {
       <InputBox />
       <LandingPage />
       <Templates />
-      <Questions />
       <Help />
+      <Questions />
     </>
   );
 }
