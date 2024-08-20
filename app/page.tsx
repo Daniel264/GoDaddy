@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import InputBox from "@/components/InputBox";
 import LandingPage from "@/components/LandingPage";
+import Questions from "@/components/Questions";
 import Templates from "@/components/Templates";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <InputBox />
       <LandingPage />
       <Templates />
+      <Questions />
     </>
   );
 }
