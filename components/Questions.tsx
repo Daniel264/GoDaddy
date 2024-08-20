@@ -2,7 +2,7 @@ import React from "react";
 
 const Questions = () => {
   return (
-    <div className="text-center w-screen h-fit px-10 py-40 md:px-96">
+    <div className="text-center w-screen h-fit px-10 py-40 md:px-48 ">
       <h1 className="font-medium text-4xl">
         Millions of customers rely on our domains and web hosting to get their
         ideas online
