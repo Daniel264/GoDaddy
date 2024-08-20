@@ -6,7 +6,7 @@ import Templates from "@/components/Templates";
 export default function Home() {
   return (
     <>
-      <Header />
+      <Header/>
       <InputBox />
       <LandingPage />
       <Templates />
