@@ -5,14 +5,14 @@ const Testimonials = () => {
   return (
     <div className=" pt-20">
       <div>
-        <div>
+        <div className="ml-10">
           <h1 className="font-semibold text-center md:text-left text-3xl lg:text-5xl">
-            Trusted by 20+ million customers around the world{" "}
+            Trusted by 20+ million <br /> customers around the world
           </h1>
         </div>
-        <div className="carousel carousel-center rounded-box max-w-md space-x-4 p-4">
+        <div className="carousel carousel-center rounded-box max-w-md space-x-4 sm:max-w-none py-4">
           {Text.map((item) => (
-            <div key={item.id} className="carousel-item max-w-xs">
+            <div key={item.id} className="carousel-item max-w-xs ">
               <div className="p-4 bg-gray-100 rounded-box shadow-md">
                 <p className="mb-5 text-black font-semibold">{item.header}</p>
                 <div className="rating mb-10">
