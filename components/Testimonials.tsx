@@ -15,43 +15,43 @@ const Testimonials = () => {
             <div key={item.id} className="carousel-item max-w-xs">
               <div className="p-4 bg-white rounded-box shadow-md">
                 <div className="rating mb-10">
-                  <div className="bg-green-500 mr-1 pt-1">
+                  <div className="bg-green-500 mr-1 px-1">
                     <input
                       type="radio"
                       name="rating-4"
-                      className="mask mask-star-2 bg-white"
+                      className="mask mask-star-2 bg-white w-3 h-3"
                     />
                   </div>
-                  <div className="bg-green-500 mr-1 pt-1">
+                  <div className="bg-green-500 mr-1 px-1">
                     <input
                       type="radio"
                       name="rating-4"
-                      className="mask mask-star-2 bg-white"
+                      className="mask mask-star-2 bg-white w-3 h-3"
                     />
                   </div>
-                  <div className="bg-green-500 mr-1 pt-1">
+                  <div className="bg-green-500 mr-1 px-1">
                     <input
                       type="radio"
                       name="rating-4"
-                      className="mask mask-star-2 bg-white"
+                      className="mask mask-star-2 bg-white w-3 h-3"
                     />
                   </div>
-                  <div className="bg-green-500 mr-1 pt-1">
+                  <div className="bg-green-500 mr-1 px-1">
                     <input
                       type="radio"
                       name="rating-4"
-                      className="mask mask-star-2 bg-white"
+                      className="mask mask-star-2 w-3 h-3 bg-white"
                     />
                   </div>
-                  <div className="bg-green-500 mr-1 pt-1">
+                  <div className="bg-green-500 mr-1 px-1">
                     <input
                       type="radio"
                       name="rating-4"
-                      className="mask mask-star-2 bg-white"
+                      className="mask mask-star-2 bg-white w-3 h-3"
                     />
                   </div>
                 </div>
-                <p className="text-lg text-black  mb-2">{item.text}</p>
+                <p className="text-lg text-black font-semibold  mb-2">{item.text}</p>
                 <p className="mt-10">{item.author}</p>
               </div>
             </div>
