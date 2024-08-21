@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Help = () => {
   return (
-    <div className=" text-center lg:text-left pt-44">
+    <div className=" text-center lg:text-left pt-14">
       <div className="bg-[#fffada] h-fit sm:flex sm:h-fit sm:py-10 md:items-center">
         <div className="px-10">
           <Image
