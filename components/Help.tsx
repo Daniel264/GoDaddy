@@ -18,13 +18,13 @@ const Help = () => {
             Why go with GoDaddy?
           </h2>
           <div className="lg:w-[500px]">
-              <p className="pb-5 ">
-                Because we know that even the best technology is only as good as the
-                people behind it. That’s why we offer expert support, plus a lot
-                more.
-              </p>
+            <p className="pb-5 ">
+              Because we know that even the best technology is only as good as
+              the people behind it. That’s why we offer expert support, plus a
+              lot more.
+            </p>
           </div>
-          <button className="btn bg-white text-black border-black">
+          <button className="btn bg-white text-black border-black mb-7">
             Get Help
           </button>
         </div>
