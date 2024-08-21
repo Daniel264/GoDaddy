@@ -13,7 +13,8 @@ const Testimonials = () => {
         <div className="carousel carousel-center rounded-box max-w-md space-x-4 p-4">
           {Text.map((item) => (
             <div key={item.id} className="carousel-item max-w-xs">
-              <div className="p-4 bg-white rounded-box shadow-md">
+              <div className="p-4 bg-gray-100 rounded-box shadow-md">
+                <p className="mb-5 text-black font-semibold">{item.header}</p>
                 <div className="rating mb-10">
                   <div className="bg-green-500 mr-1 px-1">
                     <input
@@ -51,8 +52,11 @@ const Testimonials = () => {
                     />
                   </div>
                 </div>
-                <p className="text-lg text-black font-semibold  mb-2">{item.text}</p>
-                <p className="mt-10">{item.author}</p>
+
+                <p className="text-lg text-black font-semibold  mb-2">
+                  {item.text}
+                </p>
+                <p className=" mt-10">{item.author}</p>
               </div>
             </div>
           ))}
