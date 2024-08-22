@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/Header";
 import Help from "@/components/Help";
 import InputBox from "@/components/InputBox";
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <Help />
       <Questions />
+      <Footer />
     </>
   );
 }
