@@ -2,10 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white text-center">
-      <p>Prices include applicable taxes and ICANN fees.</p>
-      <hr />
-    </div>
+
+      <div className="bg-black text-center text-white h-fit w-screen px-4">
+        <p>Prices include applicable taxes and ICANN fees.</p>
+        <hr />
+      </div>
   );
 };
 
