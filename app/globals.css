@@ -2,7 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-.collapse-title, .collapse-content{
-    min-height: 0;
-    padding: 0;
-}

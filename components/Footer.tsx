@@ -2,22 +2,19 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#131212] text-center text-white h-fit w-screen px-4">
+    <div className="bg-[#131212] text-center text-white h-fit w-screen px-4 pt-7">
       <p>Prices include applicable taxes and ICANN fees.</p>
-      <hr />
+      <hr className="my-8"/>
       <footer className="footer  p-10 text-white bg-[#131212]">
-        <nav className="collapse collapse-plus">
-          <input type="radio" name="my-accordion-3" defaultChecked className="min-h-0 p-0" />
-          <h6 className="footer-title mb-0 collapse-title text-left">About GoDaddy</h6>
-          <div className="collapse-content flex flex-col text-left leading-7">
-            <a className="link link-hover">About Us</a>
-            <a className="link link-hover">Careers</a>
-            <a className="link link-hover">Contact Us</a>
-            <a className="link link-hover">GoDaddy Blog</a>
-            <a className="link link-hover">Investor Relations</a>
-            <a className="link link-hover">Legal</a>
-            <a className="link link-hover">Trust Center</a>
-          </div>
+        <nav>
+          <h6 className="footer-title">About GoDaddy</h6>
+          <a className="link link-hover">About Us</a>
+          <a className="link link-hover">Careers</a>
+          <a className="link link-hover">Contact Us</a>
+          <a className="link link-hover">GoDaddy Blog</a>
+          <a className="link link-hover">Investor Relations</a>
+          <a className="link link-hover">Legal</a>
+          <a className="link link-hover">Trust Center</a>
         </nav>
         <nav>
           <h6 className="footer-title">Support</h6>
