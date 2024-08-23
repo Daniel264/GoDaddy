@@ -50,7 +50,7 @@ const Header = () => {
       </div>
       <div className="drawer-side">
         <label htmlFor="my-drawer" className="drawer-overlay"></label>
-        <ul className="menu p-4 w-80 bg-base-100 text-base-content cursor-pointer">
+        <ul className="menu p-4 w-44 font-semibold leading-8 h-72 bg-base-100 text-base-content cursor-pointer">
           <li>Domain Names</li>
           <li>Websites & Hosting</li>
           <li>Commerce</li>
