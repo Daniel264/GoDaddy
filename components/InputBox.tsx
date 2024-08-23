@@ -11,7 +11,7 @@ const InputBox = () => {
           placeholder="Type the domain you want"
           className="w-full md:w-[850px] bg-[#dfdfdf] outline-none placeholder:text-brown px-5"
         />
-        <button className=" btn bg-[#00838C] h-[67px] rounded-none text-white ">
+        <button className=" btn bg-[#00838C] h-[67px] w-3/12 md:w-max rounded-none text-white ">
           search Domain
         </button>
       </div>
