@@ -7,24 +7,52 @@ const Footer = () => {
       <hr />
       <footer className="footer bg-base-200 text-base-content p-10">
         <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <h6 className="footer-title">About GoDaddy</h6>
+          <a className="link link-hover">About Us</a>
+          <a className="link link-hover">Careers</a>
+          <a className="link link-hover">Contact Us</a>
+          <a className="link link-hover">GoDaddy Blog</a>
+          <a className="link link-hover">Investor Relations</a>
+          <a className="link link-hover">Legal</a>
+          <a className="link link-hover">Trust Center</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <h6 className="footer-title">Support</h6>
+          <a className="link link-hover">Product Support</a>
+          <a className="link link-hover">Report Abuse</a>
+          <a className="link link-hover">Resources</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
+          <h6 className="footer-title">Resources</h6>
+          <a className="link link-hover">Webmail</a>
+          <a className="link link-hover">WHOIS</a>
+          <a className="link link-hover">ICANN Confirmation</a>
+          <a className="link link-hover">Designers & Developers</a>
+          <a className="link link-hover">Redeem Code</a>
+          <a className="link link-hover">Product Catalog</a>
+          <a className="link link-hover">Business Name Generator</a>
+        </nav>
+        <nav>
+          <h6 className="footer-title">Partner Programs</h6>
+          <a className="link link-hover">Affliates</a>
+          <a className="link link-hover">Reseller Programs</a>
+          <a className="link link-hover">GoDaddy Pro</a>
+        </nav>
+        <nav>
+          <h6 className="footer-title">Account</h6>
+          <a className="link link-hover">My Products</a>
+          <a className="link link-hover">Renewals & Billing</a>
+          <a className="link link-hover">Create Account</a>
+        </nav>
+        <nav>
+          <h6 className="footer-title">Shopping</h6>
+          <a className="link link-hover">Buy a Domain</a>
+          <a className="link link-hover">Websites</a>
+          <a className="link link-hover">Business Email</a>
+          <a className="link link-hover">Wordpress</a>
+          <a className="link link-hover">Hosting</a>
+          <a className="link link-hover">Web Security</a>
+          <a className="link link-hover">Logo Generator</a>
         </nav>
       </footer>
       <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
