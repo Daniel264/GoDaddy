@@ -4,7 +4,7 @@ import GoDaddy from "../assets/godaddy.png";
 
 const Footer = () => {
   return (
-    <div className="bg-[#131212] text-center text-white h-fit w-screen px-4 pt-7">
+    <div className="bg-[#131212] text-center text-white h-fit w-full px-4 pt-7">
       <p>Prices include applicable taxes and ICANN fees.</p>
       <hr className="my-8" />
       <footer className="footer  p-10 text-white bg-[#131212]">
