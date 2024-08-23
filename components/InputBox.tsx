@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const InputBox = () => {
   return (
-    <div className="flex flex-col md:flex-row p-10">
+    <div className="flex flex-col xl:flex-row p-10">
       <div className="flex flex-row pr-5">
         <input
           type="text"
