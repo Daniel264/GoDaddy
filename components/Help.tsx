@@ -1,10 +1,16 @@
 import React from "react";
 import moon from "../assets/moon.png";
 import Image from "next/image";
+import { Libre_Caslon_Text } from "next/font/google";
+
+const carlson = Libre_Caslon_Text({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 const Help = () => {
   return (
-    <div className=" text-center lg:text-left pt-14">
+    <div className=" text-center lg:text-left pt-14" data-aos="fade-right">
       <div className="bg-[#fffada] h-fit sm:flex sm:h-fit sm:py-10 md:items-center">
         <div className="px-10">
           <Image
@@ -14,7 +20,9 @@ const Help = () => {
           />
         </div>
         <div className="px-10 lg:pr-32">
-          <h2 className="font-semibold text-3xl md:text-5xl md:pb-7">
+          <h2
+            className={`font-semibold text-3xl md:text-5xl ${carlson.className} md:pb-7`}
+          >
             Why go with GoDaddy?
           </h2>
           <div className="lg:w-[500px]">
@@ -24,7 +32,7 @@ const Help = () => {
               lot more.
             </p>
           </div>
-          <button className="btn bg-white text-black border-black mb-7">
+          <button className="btn bg-black text-white border-black mb-7">
             Get Help
           </button>
         </div>

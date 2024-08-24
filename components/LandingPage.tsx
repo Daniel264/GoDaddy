@@ -1,17 +1,25 @@
 import Image from "next/image";
 import React from "react";
 import firstImg from "../assets/firstimg.jpg";
+import { Libre_Caslon_Text } from "next/font/google";
 
+const carlson = Libre_Caslon_Text({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 const LandingPage = () => {
   return (
     <>
-      <div className="grid grid-rows-2 gap-4 h-fit md:grid sm:grid-rows-2 md:grid-rows-1 md:grid-cols-1 lg:grid  lg:grid-cols-[63%_37%] lg:gap-3 lg:w-[100%] lg:h-[500px] px-10 " data-aos='zoom-in-up'>
+      <div
+        className="grid grid-rows-2 gap-4 h-fit md:grid sm:grid-rows-2 md:grid-rows-1 md:grid-cols-1 lg:grid  lg:grid-cols-[63%_37%] lg:gap-3 lg:w-[100%] lg:h-[500px] px-10 "
+        data-aos="zoom-in-up"
+      >
         <div className=" relative" data-aos="fade-left">
           <div className="text-center sm:text-left absolute pl-6 lg:pl-8 pr-3 lg:pr-72 top-10">
             <p className="font-semibold pb-5">Websites & Commerce</p>
             <h1
-              className="font-bold
-            text-3xl lg:text-5xl pb-5"
+              className={`font-bold
+            text-4xl lg:text-5xl ${carlson.className} pb-5`}
             >
               Create your <br /> website
             </h1>
@@ -27,7 +35,7 @@ const LandingPage = () => {
         </div>
         <div
           className=" bg-sky-50 rounded-md pl-14 pb-5 pt-16 pr-10 md:pr-32"
-          data-aos="fade-right"
+          data-aos="zoom-in-up"
         >
           <p className="font-semibold pb-5">Domain Names</p>
           <h1 className="text-4xl font-medium pb-5">
