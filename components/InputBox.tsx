@@ -1,6 +1,7 @@
 import React from "react";
 import inc from "../assets/inc.webp";
 import Image from "next/image";
+import { FaSearch } from "react-icons/fa";
 
 const InputBox = () => {
   return (
@@ -11,8 +12,9 @@ const InputBox = () => {
           placeholder="Type the domain you want"
           className="w-full md:w-[850px] bg-[#dfdfdf] outline-none placeholder:text-brown px-5"
         />
-        <button className=" btn bg-[#00838C] h-[67px] w-3/12 md:w-max rounded-none text-white ">
-          search Domain
+        <button className=" btn bg-[#00838C] h-[67px] w-2/12 md:w-max rounded-none text-white ">
+          <FaSearch className="block md:flex "/>
+          <span className="hidden md:block">search Domain</span>
         </button>
       </div>
       <div className="flex pt-5" data-aos="zoom-in-left">
