@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React, { useEffect, useState } from "react";
 
 interface CarouseProps {
-  images: string[];
+  images: StaticImageData[];
 }
 
 const Carousel = ({ images }: CarouseProps) => {
