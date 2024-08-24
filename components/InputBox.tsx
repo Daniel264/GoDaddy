@@ -5,7 +5,7 @@ import Image from "next/image";
 const InputBox = () => {
   return (
     <div className="flex flex-col xl:flex-row p-10">
-      <div className="flex flex-row pr-5">
+      <div className="flex flex-row pr-5" data-aos="fade-right">
         <input
           type="text"
           placeholder="Type the domain you want"
@@ -15,7 +15,7 @@ const InputBox = () => {
           search Domain
         </button>
       </div>
-      <div className="flex pt-5">
+      <div className="flex pt-5" data-aos="zoom-in-left">
         <p className="font-semibold text-sm text-[#888] pr-3">.online $0.99*</p>
         <p className="font-bold text-sm text-[#888] pr-3">.net $9.99</p>
         <p className="text-sm text-[#888] md:flex pr-3">
