@@ -16,7 +16,7 @@ export default function Home() {
   useEffect(() => {
     AOS.init({
       duration: 1000, // You can adjust the animation duration here
-      once: true, // Whether animation should happen only once
+      once: false, // Whether animation should happen only once
     });
   }, []);
   return (
